@@ -23,6 +23,12 @@
 		008B927117E2D4E100FF57C2 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008B926F17E2D4E100FF57C2 /* BIDDependentComponentPickerViewController.xib */; };
 		008B927517E2D4F000FF57C2 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B927317E2D4EF00FF57C2 /* BIDCustomPickerViewController.m */; };
 		008B927617E2D4F000FF57C2 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008B927417E2D4EF00FF57C2 /* BIDCustomPickerViewController.xib */; };
+		008B927817E2D92400FF57C2 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 008B927717E2D92400FF57C2 /* TabBarController.xib */; };
+		008B927E17E2DAAC00FF57C2 /* rsz_1rsz_clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927917E2DAAB00FF57C2 /* rsz_1rsz_clock.png */; };
+		008B927F17E2DAAC00FF57C2 /* rsz_number-1-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927A17E2DAAB00FF57C2 /* rsz_number-1-icon.png */; };
+		008B928017E2DAAC00FF57C2 /* rsz_number-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */; };
+		008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */; };
+		008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +57,12 @@
 		008B927217E2D4EF00FF57C2 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
 		008B927317E2D4EF00FF57C2 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
 		008B927417E2D4EF00FF57C2 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		008B927717E2D92400FF57C2 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		008B927917E2DAAB00FF57C2 /* rsz_1rsz_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_1rsz_clock.png; sourceTree = "<group>"; };
+		008B927A17E2DAAB00FF57C2 /* rsz_number-1-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_number-1-icon.png"; sourceTree = "<group>"; };
+		008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_number-2-icon.png"; sourceTree = "<group>"; };
+		008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_oie_transparent.png; sourceTree = "<group>"; };
+		008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_stumbleupon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 			children = (
 				008B925617E2D37100FF57C2 /* BIDAppDelegate.h */,
 				008B925717E2D37100FF57C2 /* BIDAppDelegate.m */,
+				008B927717E2D92400FF57C2 /* TabBarController.xib */,
 				008B925E17E2D44A00FF57C2 /* BIDDatePickerViewController.h */,
 				008B925F17E2D44A00FF57C2 /* BIDDatePickerViewController.m */,
 				008B926017E2D44A00FF57C2 /* BIDDatePickerViewController.xib */,
@@ -122,6 +135,11 @@
 		008B924E17E2D37100FF57C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				008B927917E2DAAB00FF57C2 /* rsz_1rsz_clock.png */,
+				008B927A17E2DAAB00FF57C2 /* rsz_number-1-icon.png */,
+				008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */,
+				008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */,
+				008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */,
 				008B924F17E2D37100FF57C2 /* Pickers-Info.plist */,
 				008B925017E2D37100FF57C2 /* InfoPlist.strings */,
 				008B925317E2D37100FF57C2 /* main.m */,
@@ -186,6 +204,12 @@
 				008B926C17E2D4C100FF57C2 /* BIDDoubleComponentPickerViewController.xib in Resources */,
 				008B927117E2D4E100FF57C2 /* BIDDependentComponentPickerViewController.xib in Resources */,
 				008B927617E2D4F000FF57C2 /* BIDCustomPickerViewController.xib in Resources */,
+				008B927817E2D92400FF57C2 /* TabBarController.xib in Resources */,
+				008B927E17E2DAAC00FF57C2 /* rsz_1rsz_clock.png in Resources */,
+				008B927F17E2DAAC00FF57C2 /* rsz_number-1-icon.png in Resources */,
+				008B928017E2DAAC00FF57C2 /* rsz_number-2-icon.png in Resources */,
+				008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */,
+				008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

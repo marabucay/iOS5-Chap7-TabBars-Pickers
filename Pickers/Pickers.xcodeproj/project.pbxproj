@@ -29,6 +29,7 @@
 		008B928017E2DAAC00FF57C2 /* rsz_number-2-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */; };
 		008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */; };
 		008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */; };
+		008B928417E2F71800FF57C2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 008B928317E2F71800FF57C2 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_number-2-icon.png"; sourceTree = "<group>"; };
 		008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_oie_transparent.png; sourceTree = "<group>"; };
 		008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_stumbleupon.png; sourceTree = "<group>"; };
+		008B928317E2F71800FF57C2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		008B924E17E2D37100FF57C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				008B928317E2F71800FF57C2 /* statedictionary.plist */,
 				008B927917E2DAAB00FF57C2 /* rsz_1rsz_clock.png */,
 				008B927A17E2DAAB00FF57C2 /* rsz_number-1-icon.png */,
 				008B927B17E2DAAB00FF57C2 /* rsz_number-2-icon.png */,
@@ -210,6 +213,7 @@
 				008B928017E2DAAC00FF57C2 /* rsz_number-2-icon.png in Resources */,
 				008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */,
 				008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */,
+				008B928417E2F71800FF57C2 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

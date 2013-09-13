@@ -84,6 +84,12 @@
                                           otherButtonTitles:nil];
     [alert show];
 }
+- (CGFloat)pickerView:(UIPickerView *)pickerView
+    widthForComponent:(NSInteger)component {
+    if (component == kZipComponent)
+        return 90;
+    return 200;
+}
 
 #pragma mark -
 #pragma mark Picker Data Source Methods

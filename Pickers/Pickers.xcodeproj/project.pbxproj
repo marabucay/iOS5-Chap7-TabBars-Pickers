@@ -30,6 +30,15 @@
 		008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */; };
 		008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */; };
 		008B928417E2F71800FF57C2 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 008B928317E2F71800FF57C2 /* statedictionary.plist */; };
+		008B928C17E3004D00FF57C2 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928517E3004A00FF57C2 /* apple.png */; };
+		008B928D17E3004D00FF57C2 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928617E3004B00FF57C2 /* bar.png */; };
+		008B928E17E3004D00FF57C2 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928717E3004B00FF57C2 /* cherry.png */; };
+		008B928F17E3004D00FF57C2 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928817E3004C00FF57C2 /* crown.png */; };
+		008B929017E3004D00FF57C2 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928917E3004C00FF57C2 /* lemon.png */; };
+		008B929117E3004D00FF57C2 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B928A17E3004D00FF57C2 /* seven.png */; };
+		008B929217E3004D00FF57C2 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 008B928B17E3004D00FF57C2 /* win.wav */; };
+		008B929417E3006B00FF57C2 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 008B929317E3006B00FF57C2 /* crunch.wav */; };
+		008B929617E301FF00FF57C2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008B929517E301FE00FF57C2 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +74,15 @@
 		008B927C17E2DAAB00FF57C2 /* rsz_oie_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_oie_transparent.png; sourceTree = "<group>"; };
 		008B927D17E2DAAC00FF57C2 /* rsz_stumbleupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_stumbleupon.png; sourceTree = "<group>"; };
 		008B928317E2F71800FF57C2 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		008B928517E3004A00FF57C2 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		008B928617E3004B00FF57C2 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		008B928717E3004B00FF57C2 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		008B928817E3004C00FF57C2 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		008B928917E3004C00FF57C2 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		008B928A17E3004D00FF57C2 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		008B928B17E3004D00FF57C2 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		008B929317E3006B00FF57C2 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		008B929517E301FE00FF57C2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008B929617E301FF00FF57C2 /* AudioToolbox.framework in Frameworks */,
 				008B924817E2D37100FF57C2 /* UIKit.framework in Frameworks */,
 				008B924A17E2D37100FF57C2 /* Foundation.framework in Frameworks */,
 				008B924C17E2D37100FF57C2 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		008B924617E2D37100FF57C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				008B929517E301FE00FF57C2 /* AudioToolbox.framework */,
 				008B924717E2D37100FF57C2 /* UIKit.framework */,
 				008B924917E2D37100FF57C2 /* Foundation.framework */,
 				008B924B17E2D37100FF57C2 /* CoreGraphics.framework */,
@@ -137,6 +157,14 @@
 		008B924E17E2D37100FF57C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				008B929317E3006B00FF57C2 /* crunch.wav */,
+				008B928517E3004A00FF57C2 /* apple.png */,
+				008B928617E3004B00FF57C2 /* bar.png */,
+				008B928717E3004B00FF57C2 /* cherry.png */,
+				008B928817E3004C00FF57C2 /* crown.png */,
+				008B928917E3004C00FF57C2 /* lemon.png */,
+				008B928A17E3004D00FF57C2 /* seven.png */,
+				008B928B17E3004D00FF57C2 /* win.wav */,
 				008B928317E2F71800FF57C2 /* statedictionary.plist */,
 				008B927917E2DAAB00FF57C2 /* rsz_1rsz_clock.png */,
 				008B927A17E2DAAB00FF57C2 /* rsz_number-1-icon.png */,
@@ -214,6 +242,14 @@
 				008B928117E2DAAC00FF57C2 /* rsz_oie_transparent.png in Resources */,
 				008B928217E2DAAC00FF57C2 /* rsz_stumbleupon.png in Resources */,
 				008B928417E2F71800FF57C2 /* statedictionary.plist in Resources */,
+				008B928C17E3004D00FF57C2 /* apple.png in Resources */,
+				008B928D17E3004D00FF57C2 /* bar.png in Resources */,
+				008B928E17E3004D00FF57C2 /* cherry.png in Resources */,
+				008B928F17E3004D00FF57C2 /* crown.png in Resources */,
+				008B929017E3004D00FF57C2 /* lemon.png in Resources */,
+				008B929117E3004D00FF57C2 /* seven.png in Resources */,
+				008B929217E3004D00FF57C2 /* win.wav in Resources */,
+				008B929417E3006B00FF57C2 /* crunch.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
